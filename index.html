@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <link id="mainSectionStyle" rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="life.js"></script>
+<script type="text/javascript" src="render.js"></script>
 </head>
 
 <body>
@@ -13,13 +13,12 @@
 The goal for project one was to figure out how the graphics worked and how to call a function every few milliseconds. So what I decided on was Conway's Game of Life.
 </p>
 <p>
-<button type="button" onclick="lifeStart();">Reset</button>
-<button type="button" onclick="lifeClear();">Clear</button>
+<button type="button" onclick="reStart();">Reset</button>
 <button type="button" onclick="start();">Start</button>
 <button type="button" onclick="stop();">Stop</button>
 </p>
 <p>
-<canvas id="lifeCanvas" width="500" height="500" style="border:1px solid #000000;">
+<canvas id="lightCanvas" width="500" height="500" style="border:1px solid #000000;">
 No canvas for you.
 </canvas>
 </p>
